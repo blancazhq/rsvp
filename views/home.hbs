@@ -1,0 +1,21 @@
+<div class="wrapper">
+<img class="title" src="/title.png">
+<form action="/submit" method="post">
+  <input class="name_input" type="text" name="name" placeholder="Enter your name">
+  <input class="number_input" type="text" name="number_of_people" placeholder="How many people will be coming with you?"><br>
+  <div class="choice_wrapper cf">
+    <div class="rsvp_div">
+      <button type="submit" id="yes" class="rsvp_icon" name="togo" value="yes" onClick="addclass();return false;"></button>
+      <p class="rsvp_text">Will be there!</p>
+    </div>
+    <div class="rsvp_div">
+      <button type="submit" id="no" class="rsvp_icon no"  name="togo" value="no" onClick="addclass();return false;"></button>
+      <p class="rsvp_text">Sorry, next time!</p>
+    </div>
+    <div class="rsvp_div">
+      <button type="submit" id="maybe" class="rsvp_icon maybe"  name="togo" value="maybe" onClick="addclass();return false;"></button>
+      <p class="rsvp_text">Maybe</p>
+    </div>
+  </div>
+</form>
+</div>

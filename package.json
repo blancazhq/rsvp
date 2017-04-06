@@ -1,0 +1,19 @@
+{
+  "name": "rsvp",
+  "version": "1.0.0",
+  "description": "rsvp for bbq party",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bluebird": "^3.5.0",
+    "express": "^4.15.2",
+    "hbs": "^4.0.1",
+    "pg-promise": "^5.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huiqi zhou",
+  "license": "ISC"
+}
